@@ -1,0 +1,11 @@
+scopes:
+
+    status:
+      label: Id
+      type: group
+      conditions: id in (:filtered)
+      options:
+        1: 1
+        2: 2
+        3: 3
+
